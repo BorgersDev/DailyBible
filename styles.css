@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -7,6 +9,7 @@ body {
     padding: 24px;
     color: #0b2b2c;
     background-color: #f6f9f9;
+    font-family: 'Playfair', serif;
 }
 
 header.header {
@@ -46,3 +49,21 @@ section.container {
 section.container aside.arrow-icon img {
     width: 48px;
 }
+
+section.content {
+    display: flex;
+    flex-direction: column;
+    padding:  0 24px;
+}
+
+section.container section.content h1 {
+    font-weight: bold;
+    font-size: 42px;
+    font-style: italic;;
+}
+
+section.container section.content p {
+    font-size: 18px;
+}
+
+
