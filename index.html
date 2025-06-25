@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
     </head>
 
     <body>
@@ -12,38 +13,34 @@
         <header class="header">
             <img src="logo.png" alt="Daily Bible é o seu app da bíblia" />
 
-            <select arial-placeholder="selecione um livro">
-                <option>Isaías</option>
-                <option>Salmos</option>
+            <select id="book-select" arial-placeholder="selecione um livro">
+                <option value="is">Isaías</option>
+                <option value="sl">Salmos</option>
             </select>
 
-            <select arial-placeholder="selecione uma versão">
-                <option>NVI</option>
-                <option>King James</option>
+            <select id="version-select" arial-placeholder="selecione uma versão">
+                <option value="nvi">NVI</option>
+                <option value="kjv" >King James</option>
             </select>          
         </header>
 
         <section class="container">
-            <aside class="arrow-icon" >
+            <aside id="left-arrow" class="arrow-icon" >
                 <img src="left-arrow.png" alt="Voltar um capítulo"/>
             </aside>
 
-            <section class="content" >
+            <section id="bible-content" class="content" >
                 <article>
-                    <h1>Isaías 1</h1>
+                    <h1>Daily Bible</h1>
                     <p>
-                        1. No ano em que o rei Uzias morreu, eu vi o Senhor assentado sobre um alto e sublime trono, e as abas de Suas vestes enchiam o templo.
-                    </p>
-                    <p>
-                        2. Serafins estavam por cima dele; cada um tinha seis asas: com duas cobriam o rosto, com duas cobriam os pés e com duas voavam.
+                        Seu aplicativo web de bíblia.
                     </p>
                 </article>
             </section>
 
-            <aside class="arrow-icon">
+            <aside id="right-arrow" class="arrow-icon">
                 <img src="right-arrow.png" alt="Avançar um capítulo"/>
             </aside>
-
         </section>
     </body>
 </html>
