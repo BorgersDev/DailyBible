@@ -1,46 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <title>Daily Bible</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <script src="script.js"></script>
-    </head>
-
-    <body>
-
-        <header class="header">
-            <img src="logo.png" alt="Daily Bible é o seu app da bíblia" />
-
-            <select id="book-select" arial-placeholder="selecione um livro">
-                <option value="is">Isaías</option>
-                <option value="sl">Salmos</option>
-            </select>
-
-            <select id="version-select" arial-placeholder="selecione uma versão">
-                <option value="nvi">NVI</option>
-                <option value="kjv" >King James</option>
-            </select>          
-        </header>
-
-        <section class="container">
-            <aside id="left-arrow" class="arrow-icon" >
-                <img src="left-arrow.png" alt="Voltar um capítulo"/>
-            </aside>
-
-            <section id="bible-content" class="content" >
-                <article>
-                    <h1>Daily Bible</h1>
-                    <p>
-                        Seu aplicativo web de bíblia.
-                    </p>
-                </article>
-            </section>
-
-            <aside id="right-arrow" class="arrow-icon">
-                <img src="right-arrow.png" alt="Avançar um capítulo"/>
-            </aside>
-        </section>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 24px 24px;
+  font-family: 'Playfair Display', serif;
+  color: #0b2b2c;
+  background-color: #f6f9f9;
+}
+
+header.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  box-sizing: border-box;
+
+  width: 100%;
+  padding: 18px 18px;
+  background-color: #ffffff;
+  border-radius: 66px;
+  border-bottom: 1px solid #ececec;
+  box-shadow: 0px 8px 6.3px 0px rgba(218, 218, 218, 0.21);
+}
+
+header img {
+  width: 200px;
+  padding: 0 24px;
+}
+
+header select {
+  width: 20%;
+  padding: 12px 24px;
+  border: 0;
+  border-bottom: 2px solid #f0f0f0;
+  background: var(--Neutrals-0, #fff);
+}
+
+section.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  position: relative;
+}
+
+section.container aside.arrow-icon img {
+  width: 48px;
+}
+
+section.container aside {
+  position: relative;
+  padding-top: 34px;
+  background-color: red;
+}
+
+section.container aside img {
+  position: fixed;
+  cursor: pointer;
+}
+
+section.container h1 {
+  font-weight: bold;
+  font-size: 42px;
+  font-style: italic;
+}
+
+section.container p {
+  font-size: 18px;
+}
+
+section.content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+}
