@@ -4,8 +4,6 @@ A Digital Bible web application built with ReactJS, TypeScript, and Vite, integr
 
 **Developed for the Front-End 1 course at Faculdade Dunamis under the guidance of Professor Victor Caetano.**
 
-Vídeo de exemplo de funcionamento:
-
 
 https://github.com/user-attachments/assets/454b88fa-8ade-488b-a304-b012053830ac
 
